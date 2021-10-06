@@ -1,0 +1,25 @@
+@import 'variables.less';
+
+body {
+    background-color: @backgroud;
+    color: @font-base;
+
+    @import 'mixins.less';
+    
+    @import 'custom/login.less';
+    @import 'custom/menu.less';
+
+    //colaborador
+    @import 'custom/colaborador/home.less';
+    @import 'custom/colaborador/home-colaborador.less';
+    @import 'custom/colaborador/collaborator-pass.less';
+    @import 'custom/colaborador/collaborator-dados.less';
+    @import 'custom/colaborador/nf.less';
+    @import 'custom/colaborador/config.less';
+
+    //admin
+    @import 'custom/admin/collaborator-list.less';
+    @import 'custom/admin/collaborator-nf.less';
+    @import 'custom/admin/quadros.less';
+    @import 'custom/admin/add-tarefas.less';
+}

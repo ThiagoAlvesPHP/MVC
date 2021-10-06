@@ -1,0 +1,153 @@
+//NF
+.nf {
+    .alerta-um {
+        color: @btn-success;
+        max-width: 600px;
+    }
+
+    .alerta-dois {
+        color: @alerta;
+        margin-top: 10px;
+        max-width: 600px;
+    }
+
+    .info-empresa {
+        margin-top: 30px;
+
+        .titulo {
+            font-size: 14px;
+        }
+
+        .dados-empresa {
+            margin-top: 10px;
+
+            span {
+                color: @special-text;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .atividades {
+        margin-top: 30px;
+
+        .alert-disable {
+            font-size: 14px;
+
+            .fechar-alert {
+                position: relative;
+                float: right;
+                cursor: pointer;
+            }
+        }
+
+        .table-responsive {
+            .table {
+                font-size: 12px;
+
+                thead {
+                    background-color: @thead;
+                }
+
+                tbody {
+                    color: @font-base-sec;
+                    background-color: @thead;
+
+                    //antes do foreach
+                    .nf-aguardando {
+                        color: @alerta;
+                    }
+
+                    .aguarde {
+                        color: @special-text;
+                    }
+
+                    .sucesso {
+                        color: @btn-success;
+                    }
+
+                    .nf-lista {
+                        td {
+                            .modal {
+                                color: @font-base-sec;
+
+                                .modal-dialog {
+                                    .modal-content {
+                                        .modal-body {
+                                            .pdf {
+                                                width: 100%;
+                                                height: 350px;
+                                            }
+
+                                            form {
+                                                .btn {
+                                                    border: none;
+                                                    background-color: @btn-success;
+                                                    border-radius: 5px;
+                                                    margin-top: 20px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .ver {
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+
+                    .informativo {
+                        color: @color;
+                    }
+
+                    tr {
+                        td {
+                            height: 50px;
+
+                            .btn-modal {
+                                color: @font-base-sec;
+                                border: none;
+                                width: 130px;
+                                background-color: @special-text;
+                                border-radius: 5px;
+                                display: flex;
+                                height: 30px;
+                                align-items: center;
+
+                                .icone {
+                                    flex: 1;
+                                }
+
+                                .texto {
+                                    flex: 3;
+                                }
+                            }
+
+                            #myModal {
+                                color: @font-base-sec;
+
+                                .modal-dialog {
+                                    .modal-content {
+                                        .modal-body {
+                                            form {
+                                                .btn {
+                                                    border: none;
+                                                    background-color: @btn-success;
+                                                    border-radius: 5px;
+                                                    margin-top: 20px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

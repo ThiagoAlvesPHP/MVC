@@ -1,0 +1,123 @@
+.add-tarefas {
+    .message-error {
+        .alert-disable {
+            font-size: 14px;
+
+            .fechar-alert {
+                position: relative;
+                float: right;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .content {
+        .col-sm-4 {
+            form {
+                input {
+                    color: @font-base-sec;
+                }
+                .titulo {
+                    display: flex;
+                    
+                    .titulo-um {
+                        flex: 1;
+                        color: @font-base-sec;
+                    }
+                    .titulo-dois {
+                        flex: 4;
+                    }
+                }
+            }
+        }
+        .list {
+            .well {
+                #tarefas {
+                    thead {
+                        background-color:@thead;
+                    }
+
+                    tbody {
+                        color: @font-base-sec;
+
+                        tr {
+                            .sorting_1 {
+                                .far, .fas {
+                                    height: 100%;
+                                }
+                                button {
+                                    width: 40px;
+                                }
+
+                                .modal {
+                                    .modal-dialog {
+                                        .modal-content {
+                                            .modal-body {
+                                                form {
+                                                    input {
+                                                        color: @font-base-sec;
+                                                    }
+                                                    select {
+                                                        color: @font-base-sec;
+                                                    }
+                                                    .titulo {
+                                                        display: flex;
+                                                        
+                                                        .titulo-um {
+                                                            flex: 1;
+                                                            color: @font-base-sec;
+                                                        }
+                                                        .titulo-dois {
+                                                            flex: 4;
+                                                        }
+                                                    }
+
+                                                    .imgs {
+                                                        display: flex;
+
+                                                        .img {
+                                                            padding: 10px;
+                                                            
+                                                            .btn {
+                                                                height: 30px;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .btn-success {
+                                                        width: 100px;
+                                                        height: 40px;
+                                                    }
+                                                }
+
+                                                .historico-quadros-modal {
+                                                    .historico-quadros {
+                                                        display: flex;
+                                                        border: solid 1px #dee2e6;
+                                                        height: 30px;
+                                                        justify-content: center;
+                                                        align-items: center;
+
+                                                        div {
+                                                            flex: 1;
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            .modal-footer {
+                                                button {
+                                                    width: 70px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
